@@ -7,13 +7,13 @@ namespace c_Sharp
        
 
 
-        static unsafe void Main(string[] args)
-        {
-            Convert_1D_into_2D array = new Convert_1D_into_2D();
+        //static unsafe void Main(string[] args)
+        //{
+        //    Convert_1D_into_2D array = new Convert_1D_into_2D();
 
-            array.Conversion(2, 2);
+        //    array.Conversion(2, 2);
 
-            Console.ReadKey();
-        }
+        //    Console.ReadKey();
+        //}
     }
 }

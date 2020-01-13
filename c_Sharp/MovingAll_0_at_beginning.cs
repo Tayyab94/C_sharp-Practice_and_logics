@@ -6,7 +6,7 @@ namespace c_Sharp
 {
     class MovingAll_0_at_beginning
     {
-        public static void Main(string[] arg)
+        public static void Main1(string[] arg)
         {
             int[] arr = { 3, 5, 6, 7, 0, 3, 1, 0, -0, 1 };
 

@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Net;
+using System.Net.Http;
 
 namespace c_Sharp
 {
@@ -14,18 +16,10 @@ namespace c_Sharp
             //array.Conversion(2, 2);
 
             //Console.ReadKey();
+            var Client = new WebClient();
+            var text = Client.DownloadString("https://www.fiverr.com");
 
-            DateTime dob;
-
-            DateTime today = DateTime.Now;
-
-            Console.WriteLine("Enter DOb ");
-            dob = Convert.ToDateTime(Console.ReadLine()).Date;
-
-            TimeSpan timeSpan =today.Subtract(dob);
-
-            Console.WriteLine($"You are old {(timeSpan.Days / 365)}");
-
+            Console.WriteLine(text);
             Console.ReadKey();
 
         }

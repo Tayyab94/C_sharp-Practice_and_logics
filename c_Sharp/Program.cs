@@ -9,7 +9,7 @@ namespace c_Sharp
 
 
 
-        static unsafe void Main(string[] args)
+        static unsafe void Main24(string[] args)
         {
             //Convert_1D_into_2D array = new Convert_1D_into_2D();
 

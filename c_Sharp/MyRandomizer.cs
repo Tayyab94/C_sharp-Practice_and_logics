@@ -26,7 +26,7 @@ namespace c_Sharp
 
     public class some
     {
-         static void Main(string[] args)
+         static void Main2(string[] args)
         {
             MyRandomizer myRandomizer = new MyRandomizer();
 

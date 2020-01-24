@@ -6,7 +6,7 @@ namespace c_Sharp
 {
     class LinkedList
     {
-        static void Main(string[] args)
+        static void Main2(string[] args)
         {
             //SinglyLinkList linkList = new SinglyLinkList();
             //linkList.Insert_First(12);
